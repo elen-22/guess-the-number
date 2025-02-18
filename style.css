@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+  padding: 0; 
+}
+.gameBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container{
+    text-align: center;
+    background-color:lightgrey;
+    padding:20px;
+    border-radius:10px;
+    width:300px;
+} 
+h1{
+    margin-bottom:20px;
+}
+#userInp{
+    width:80%;
+    padding:10px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+#guessbtn{
+     padding:10px 20px; 
+     background-color: rgb(48, 195, 48);
+     color:white;
+     border:none;
+     border-radius:10px;
+     
+}
+#guessbtn:hover{
+    background-color: green;
+    cursor:pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
